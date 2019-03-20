@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client_FileTransfer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\PAINAN~1\LOCALS~1\Temp\RSP196.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Client_FileTransfer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\painangel\×ÀÃæ\Client_FileTransfer\Client_FileTransferDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PAINAN~1\LOCALS~1\Temp\RSP196.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Client_FileTransferDlg.cpp
+C:\Documents and Settings\painangel\×ÀÃæ\Client_FileTransfer\Client_FileTransferDlg.cpp(168) : error C2511: 'OnDblclkListFilelist' : overloaded member function 'void (struct tagNMHDR,long *)' not found in 'CClient_FileTransferDlg'
+        c:\documents and settings\painangel\×ÀÃæ\client_filetransfer\client_filetransferdlg.h(16) : see declaration of 'CClient_FileTransferDlg'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Client_FileTransferDlg.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
